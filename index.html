@@ -661,7 +661,46 @@
     <div class="container m-auto py-4">
         <h2 class="text-center">Si tu decides hacerlo en un local o en tu casa</h1>
             <h4 class="text-center pb-3">no hay problema, llevamos todo preparado llegar y servir.</h2>
-                <a href="mailto:" class="custom-button">Envianos un correo!</a>
+                <div class="container full-height d-flex justify-content-center align-items-center">
+                    <div class="w-50">
+                        <form>
+                            <div class="form-group my-3">
+                                <label for="nombreCompleto">Nombre Completo</label>
+                                <input type="text" class="form-control" id="nombreCompleto" placeholder="Ingresa tu nombre completo" required>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" class="form-control" id="telefono" placeholder="Ingresa tu teléfono" required>
+                            </div>
+                            <div class="form-group  my-3">
+                                <label for="tipoEvento">Tipo de Evento</label>
+                                <select class="form-control" id="tipoEvento" required>
+                                    <option value="">Selecciona un tipo de evento</option>
+                                    <option value="coctel">Cóctel</option>
+                                    <option value="cumpleaños">Cumpleaños</option>
+                                    <option value="caterin">Servicio de Cáterin</option>
+                                    <option value="corporativo">Corporativos</option>
+                                    <option value="casamiento">Casamiento</option>
+                                    <option value="aniversario">Aniversario</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="fecha">Fecha de entrega</label>
+                                <input type="date" class="form-control" id="fecha" required>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="cantidadPersonas">Cantidad de Personas</label>
+                                <input type="number" class="form-control" id="cantidadPersonas" placeholder="Ingresa la cantidad de personas" required>
+                            </div>
+                            <div class="form-group my-3">
+                                <label for="horario">Horario</label>
+                                <input type="time" class="form-control" id="horario" required>
+                            </div>
+                            <button type="submit" class="custom-button" style="width: 100%; border: none;" >Envianos un correo!</button>
+                        </form>
+                    </div>
+                </div>
     </div>
     <div class="border-bottom container border-secondary my-4 col-11" id="horarios"></div>
     <!--#endregion-->
