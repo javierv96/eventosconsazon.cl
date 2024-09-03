@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <!-- GoogleFonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- Other head elements -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+      name="keywords"
+      content="eventos, cocteleria, comida, coctel, matrimonio, gala, cumpleaños, santiago, picoteo, empresa"
+    />
+
+    <meta name="author" content="Javier Vergara">
+    <title>Eventos Con Sazón</title>
+</head>
+
+<body id="inicio">
+
+    <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light  fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand ms-3 text-black" href="#inicio">
+                Eventos Con Sazón.cl
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-md-4" href="#aboutUS">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-md-4" href="#catalogo">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-md-4" href="#precios">Precios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-md-4" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-black mx-md-4" href="#horarios">Horarios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="border-bottom container border-secondary col-11 bg-light" id="aboutUS"></div>
+
+    <!-- Sección de "Quiénes Somos" -->
+    <section class="py-5 bg-light text-center mt-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold aboutus">BANQUETES TODA OCASIÓN, EVENTOSCONSAZON.CL</h1>
+            <p class="lead mt-4">Hace 6 años atrás comenzamos un proyecto familiar, el objetivo era preparar alimentos caseros de buen nivel y calidad. Queríamos que probaran nuestros productos y ver qué tanta aceptación tenían, así nace La Reina del Canapé.cl. Nuestros seguidores fueron aumentando y los clientes comenzaron a pedir cosas nuevas, más variedades y a darnos nuevas ideas. Por esta razón decidimos expandirnos y comenzar esta maravillosa aventura. Esperamos seguir contando con ustedes porque todo está hecho con mucha dedicación y cariño.</p>
+        </div>
+    </section>
+
+    <!-- Sección de "Qué Hacemos" -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="fw-bold text-center mb-4">Qué Hacemos</h2>
+            <p class="lead text-center">Ofrecemos una variedad de servicios para todo tipo de eventos:</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">Coctel</li>
+                <li class="list-group-item">Cumpleaños</li>
+                <li class="list-group-item">Servicio de catering</li>
+                <li class="list-group-item">Eventos corporativos</li>
+                <li class="list-group-item">Casamientos</li>
+                <li class="list-group-item">Aniversarios</li>
+            </ul>
+            <p class="mt-4">Contamos con servicios adicionales como DJ, sonido, luces, sillas, mesas, vajilla, mantelería, mozos.</p>
+
+            <div class="alert alert-warning mt-4" role="alert" id="catalogo">
+                <strong>Nota Importante:</strong> Al momento de aceptar el presupuesto deberá cancelar el 80% del valor total y el 20% restante al recibir la entrega. Si por motivos de fuerza mayor (ajenos a Eventos con Sazón) no llegase a realizarse el evento, se devolverá solo el 40% del total pagado dentro de los 10 días hábiles posteriores.
+            </div>
+        </div>
+    </section>
+
+    <div >
+        <!-- #region Salados-->
+        <h1 class="text-center mt-2"> Productos Salados</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemplo.webp" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canapés Gourmet</h5>
+                                    <p class="card-text">Variedad:
+                                    <ul>
+                                        <li>Palmito, tomate cherry.</li>
+                                        <li>Ave nuez.</li>
+                                        <li>Huevo de codorniz, pimentón.</li>
+                                        <li>Queso crema, camarón.</li>
+                                    </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-body-secondary">Opcional:
+                                            <ul>
+                                                <li>Queso, tomate cherry, albahaca.</li>
+                                                <li>Jamón serrano, aceituna.</li>
+                                            </ul>
+                                        </small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemplo.webp" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canapés Clásicos</h5>
+                                    <p class="card-text">Variedad:
+                                    <ul>
+                                        <li>Kanikama, ciboulette.</li>
+                                        <li>Chorito, lechuga.</li>
+                                        <li>Esparrago, mayo ajo.</li>
+                                        <li>Queso crema, champigñon.</li>
+                                    </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-body-secondary">Opcional:
+                                            <ul>
+                                                <li>Queso fresco, ciboulette.</li>
+                                                <li>Salame.</li>
+                                            </ul>
+                                        </small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemplo.webp" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canapés Vegetarianos</h5>
+                                    <p class="card-text">Variedad:
+                                    <ul>
+                                        <li>Zanahoria, pepinillo.</li>
+                                        <li>Hummus, aceituna.</li>
+                                        <li>Champigñon, tomate cherry.</li>
+                                    </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-body-secondary">Todos los canapés llevan una
+                                            salsa base.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemcuadrado.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Canapés Super Ricos</h5>
+                                    <p class="card-text">Variedad:
+                                    <ul>
+                                        <li>Queso crema, huevo, pimenton, jamon.</li>
+                                        <li>Mayonesa, ave, palta, salsa palta ciboulette.</li>
+                                        <li>Atún, mayonesa, cebolla, tomate.</li>
+                                    </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-body-secondary">Canapés cuadrados.</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemfajita.jpg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mini Fajitas</h5>
+                                    <p class="card-text">Variedad: </p>
+                                    <p class="card-text"></p>Queso crema, jamón lechuga, salsa Pachy (a base de mostaza).</p>
+                                    <p class="card-text"><small class="text-body-secondary">Rellenas con Lechuga, choclo, tomate, salsa golf.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemvolulevant.jpg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Volulevant</h5>
+                                    <p class="card-text">Variedad:
+                                        <ul>
+                                            <li>Jamón queso.</li>
+                                            <li>Queso de cabra, salsa de pimentón.</li>
+                                        </ul>
+                                    </p>
+                                    <p class="card-text"><small class="text-body-secondary">Masitas a base de masa de hoja Rellenas de: Espinaca, queso.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="ms-4 mt-2 text-body-secondary"><small>Nota: Se sirven tibias y se deben calentar en horno convencional NO MICROHONDAS.</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejempizzeta.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mini Pizzetas</h5>
+                                    <p class="card-text">Relleno tradicional base de kepchup, jamón, queso, tomate, aceitunas y oregano.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemhamburger.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mini Hamburguesas</h5>
+                                    <p class="card-text">Tomate, lechuga, queso chedar y mayonesa.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Hechas con carne de vacuno (posta).</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejembrocheta.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Brochetas Saladas</h5>
+                                    <p class="card-text">Queso, tomate Cherry, salame, huevo de codorniz.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Variedad: Queso de cabra, tomate Cherry, rucula, champigñon.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemtabla.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tablas de Picoteo</h5>
+                                    <p class="card-text">Lleva frutos secos, papas fritas, galletas saladas, salsa, fruta de la estacion, variedad de quesos y variedad de embutidos.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Tamaño para 2, 4, 8 y 10 personas.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemchurrascos.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mini Churrascos o mini Lomitos</h5>
+                                    <p class="card-text">Mayonesa, tomate, queso.</p>
+                                    <p class="card-text"><small class="text-body-secondary">Opcional: pepinillos, cebolla.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+         <!--#endregion-->
+
+        <!-- #region Dulces-->
+        <h1 class="text-center mt-2"> Productos Dulces</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejempastelillos.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pastelillos Surtidos</h5>
+                                    <p class="card-text">Variedad: Bizcocho, trufa, merengue, cachitos, delicias, mendocinos, tartaletas.</p>
+                                    <p class="card-text"><small class="text-body-secondary">(50 unidades)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemtortamerengue.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Torta Merengue Frambuesa</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(10 personas)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejemtortamanjarnuez.webp" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Torta helada Manjar Nuez</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(12 personas)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/ejempielimon.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pie de Limon</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(6 personas)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/quequezanahoria.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Queque de Zanahoria</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(8 a 10 personas)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/brochetasdulces.jpg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Brochetas Dulces</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(25 unidades cada una con 6 trozos de frutas de la estación)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/sopaipillascoctel.webp" class="img-fluid rounded ms-2 my-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sopaipillas de Coctel</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(30 unidades con o sin pebre)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/pandepascua.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Pan de Pascua</h5>
+                                    <p class="card-text"><small class="text-body-secondary">(Medio Kilo con o sin fruta confitada)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!--#endregion-->
+
+        <!--#region Postres y Jugos-->
+        <h1 class="text-center mt-2"> Postres y Jugos</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/tortin.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Tortin</h5>
+                                    <p class="card-text">Base de bizcocho, crema chantilly y fruta</p>
+                                    <p class="card-text"><small class="text-body-secondary">(Opcional salsa de frambuesa o chocolate)</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/lecheasada.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Leche Asada</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Clasica leche asada con caramelo.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/moteconhuesillo.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Mote con Huesillos</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Refrescante mote con huesillos casero.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/jugovitamina.jpeg" class="img-fluid rounded ms-2 mt-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jugos Vitamina</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Zanahoria naranja y Naranja platano.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-1">
+                    <div class="card h-100">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/img/jugonaturales.jpeg" class="img-fluid rounded ms-2 my-4" alt="...">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Jugos Naturales</h5>
+                                    <p class="card-text"><small class="text-body-secondary">Piña, frutilla, frambuesa, maracuya, melón o sandia.</small></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        
+        <!--#endregion-->
+    </div>
+
+    <div class="container m-auto py-2">
+        <h2 class="text-center pb-3">Tenemos 4 menús banquete para que elijas el que mas se acomode a tu gusto y necesidades.</h6>
+        
+            <div class="row justify-content-center">
+                <div class="card m-2 col-5">
+                    <img src="assets/img/cenasutil.jpeg" class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cena Sutil</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Entrada: <p class="text-body-secondary">Bollitos de Reineta bañados en salsa verde acompañado con lechuga, hojas de rucula y bastoncidos de zanahoria.</p></li>
+                            <li>Plato de Fondo: <p class="text-body-secondary">Trozo de carne (plateada) bañada en salsa de vino tinto y champigñones, acompañad con finas hierbas y arroz al curry.</p></li>
+                            <li>Postre: <p class="text-body-secondary">Trozo de torta trufa menta</p></li>
+                            <li>Bajativo: <p class="text-body-secondary"> menta, manzanilla o café</p></li>
+                        </ul>
+                      </p>
+
+                    </div>
+                </div>
+                <div class="card m-2 col-5">
+                    <img src="assets/img/cenacolores.jpg" class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cena Colores</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Entrada: <p class="text-body-secondary">Cuadrito 3 colores echo de puré, acelga y zanahoria bañado en salsa blanca.</p></li>
+                            <li>Plato de Fondo: <p class="text-body-secondary">deshilachado de vacuno (pollo ganzo) con salsa gourmet y finas hierbas sobre crema pastelera.</p></li>
+                            <li>Postre: <p class="text-body-secondary">Helado de frambuesa bañado en salsa de frambuesa adornado con frutos rojos.</p></li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+            </div>
+            <div class="row justify-content-center pb-4">
+                <div class="card m-2 col-5">
+                    <img src="assets/img/cenamimedida.webp" class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title" id="precios">Cena a mi medida</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Entrada: <p class="text-body-secondary">Flor de palta (palta, bañada en salsa de ciboulette y tomate Cherry sobre cama de brotes de alfalfa).</p></li>
+                            <li>Plato de Fondo: <p class="text-body-secondary">Filete de Pollo a la mostaza acompañado de pure de zanahoria y finas hierbas.</p></li>
+                            <li>Postre: <p class="text-body-secondary">Copa frutona (copa de helado con frutas de la estación).</p></li>
+                        </ul>
+                      </p>
+                    </div>
+                </div>
+                <div class="card m-2 col-5">
+                    <img src="assets/img/cenavivachile.jpg" class="card-img-top mt-3" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Cena viva Chile</h5>
+                      <p class="card-text">
+                        <ul>
+                            <li>Entrada: <p class="text-body-secondary">Ceviche de Reineta.</p></li>
+                            <li>Plato de Fondo: <p class="text-body-secondary">Lomo a lo pobre acompañado de papas fritas, cebolla y huevo frito.</p></li>
+                            <li>Postre: <p class="text-body-secondary">Mote con Huesillos.</p></li>
+                        </ul>
+                      </p>
+                    </div>
+                </div>
+            </div>
+            <a href="./precios.pdf" target="_blank" class="custom-button">Descarga nuestro PDF con los precios!</a>
+    </div>
+    
+    <!-- #region Contacto -->
+    <div class="border-bottom container border-secondary my-5 col-11" id="contacto"></div>
+    <div class="container m-auto " >
+        <div id="carouselExample" class="carousel-container">
+            <div class="carousel-slides">
+                <div class="carousel-slide">
+                    <img src="assets/img/matrimonio.avif" alt="Matrimonios">
+                    <div class="overlay"></div>
+                    <div class="carousel-text">Matrimonios</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/img/aniversarios.jpg" alt="Aniversarios">
+                    <div class="overlay"></div>
+                    <div class="carousel-text">Aniversarios</div>
+                </div>
+                <div class="carousel-slide">
+                    <img src="assets/img/findeano.jpg" alt="Galas de fin de año">
+                    <div class="overlay"></div>
+                    <div class="carousel-text">Galas de fin de año</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container m-auto py-4">
+        <h2 class="text-center">Si tu decides hacerlo en un local o en tu casa</h1>
+            <h4 class="text-center pb-3">no hay problema, llevamos todo preparado llegar y servir.</h2>
+                <a href="mailto:" class="custom-button">Envianos un correo!</a>
+    </div>
+    <div class="border-bottom container border-secondary my-4 col-11" id="horarios"></div>
+    <!--#endregion-->
+
+    <section class="py-3 bg-secondary text-white">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Horarios de Atención</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="card bg-dark text-white mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Jueves</h5>
+                            <p class="card-text">12:00 hasta 19:00</p>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-white mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Viernes y Sábado</h5>
+                            <p class="card-text">9:30 hasta 20:30</p>
+                        </div>
+                    </div>
+                    <div class="card bg-dark text-white mb-3">
+                        <div class="card-body">
+                            <h5 class="card-title">Domingo</h5>
+                            <p class="card-text">12:00 hasta 17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="row m-auto pb-3">
+        <div class="text-center col-12 col-md-12">
+          <h2 class="fw-light mt-4 mb-2 text-black">Eventos con Sazon.cl</h2>
+          <h4 class="text-black">Entrega todas las comunas de Región Metropolitana</h4>
+          
+          <h5 class="text-black"><i class="fa-brands fa-instagram mx-2"></i><a href="https://www.instagram.com/lareinadelcanape.cl/" target="_blank">@lareinadelcanape.cl</a></h5>
+          <h5><i class="fa-brands fa-whatsapp mx-2"></i>(+56) 9 3600 3542</h5>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/d4b73d489f.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

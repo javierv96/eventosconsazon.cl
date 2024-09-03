@@ -1,0 +1,103 @@
+nav{
+    background-color: #eba234;
+    color: #fff;
+ }
+ 
+ nav a img{
+     height: 1.5rem;
+     width: 5.3rem;
+ }
+
+ body {
+    font-family: "Poppins", sans-serif !important;
+ }
+
+ .carousel-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.carousel-slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+    min-width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    z-index: 2;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 200px; /* Ajusta esta altura según tu necesidad */
+    object-fit: cover; /* Esto recorta la imagen para ajustarla al tamaño especificado */
+  }
+
+  footer {
+    background-color: #eba234;
+  }
+  footer i {
+    font-size: 2rem;
+  }
+  footer a {
+    text-decoration: none;
+    outline: none;
+    color: black;
+  }
+  
+  footer h4{
+    color:#fff;
+  }
+
+  .custom-button {
+    display: block;
+    width: 60%; /* Ancho del botón ajustable */
+    height: 40px; /* Altura del botón */
+    background-color: #eba234; /* Color de fondo predeterminado */
+    color: black; /* Color del texto */
+    text-align: center;
+    line-height: 40px; /* Centra el texto verticalmente */
+    text-decoration: none; /* Quita el subrayado del enlace */
+    border-radius: 5px; /* Bordes redondeados */
+    margin: 0 auto; /* Centra el botón en el contenedor */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.custom-button:hover {
+    background-color: #c78a2c; /* Color al pasar el cursor */
+}
+
+.aboutus {
+  color: #c78a2c;
+}
