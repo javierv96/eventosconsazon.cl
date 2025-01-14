@@ -17,7 +17,7 @@ function handleSendEmail(event) {
 
     sendEmail.setAttribute(
         'href',
-        `mailto:ja.vergarac96@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
+        `mailto:Marilu@eventosconsazon.cl?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
     );
 
     sendEmail.click();
