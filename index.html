@@ -27,7 +27,7 @@
     <title>Eventos Con Sazón</title>
 </head>
 
-<body id="inicio">
+<body id="inicio" class="pt-1">
 
     <nav data-bs-theme="dark" class="navbar navbar-expand-lg navbar-light  fixed-top">
         <div class="container-fluid">
@@ -60,10 +60,10 @@
         </div>
     </nav>
 
-    <div class="border-bottom container border-secondary col-11 bg-light" id="aboutUS"></div>
+    
 
     <!-- Sección de "Qué Hacemos" -->
-    <section class="py-5 mt-5">
+    <section class="pt-5 mt-5">
         <div class="container">
             <h2 class="fw-bold text-center mb-4">Qué Hacemos</h2>
             <p class="lead text-center">Ofrecemos una variedad de servicios para todo tipo de eventos:</p>
@@ -77,11 +77,13 @@
             </ul>
             <p class="mt-4">Contamos con servicios adicionales como DJ, sonido, luces, sillas, mesas, vajilla, mantelería, mozos, entre otros.</p>
 
-            <div class="alert alert-warning mt-4 text-center" role="alert" id="catalogo">
+            <div class="alert alert-warning mt-4 text-center" role="alert" >
                 <strong>Nota Importante:</strong> Al momento de aceptar el presupuesto deberás cancelar el 80% del valor total y el 20% restante al recibir la entrega. Si por motivos de fuerza mayor (ajenos a Eventos con Sazón) no llegase a realizar el evento, se devolverá solo el 40% del total pagado dentro de los 10 días hábiles posteriores.
             </div>
         </div>
     </section>
+
+    <div class=" container pb-5 col-11" id="catalogo" style="visibility: hidden;"></div>
 
     <div >
         <!-- #region Salados-->
@@ -519,7 +521,7 @@
             </div>
         </div>
 
-        <div class="container my-3">
+        <div class="container my-3" id="precios">
             <div class="row">
                 <div class="col-md-4 mb-1">
                     <div class="card h-100">
@@ -559,7 +561,9 @@
         <!--#endregion-->
     </div>
 
-    <a href="./precios.pdf" target="_blank" class="custom-button mt-5">Descarga nuestro PDF con los precios!</a>
+    <a href="./precios.pdf"  target="_blank" class="custom-button mt-5">Descarga nuestro PDF con los precios!</a>
+
+    <div class=" container  col-11 bg-light" id="aboutUS"></div>
 
     <!-- Sección de "Quiénes Somos" -->
     <section class="py-5 bg-light text-center mt-5">
@@ -614,7 +618,7 @@
             <div class="card m-2 col-12 col-md-5">
                 <img src="assets/img/cenamimedida.webp" class="card-img-top mt-3" alt="...">
                 <div class="card-body">
-                    <h5 class="card-title" id="precios">Cena Mi Medida</h5>
+                    <h5 class="card-title" >Cena Mi Medida</h5>
                     <p class="card-text">
                         <ul>
                             <li>Entrada: <p class="text-body-secondary">Flor de palta (palta, bañada en salsa de ciboulette y tomate cherry sobre cama de brotes de alfalfa).</p></li>
@@ -677,7 +681,7 @@
         </div>
     </div>
 
-    <div class="border-bottom container border-primary my-2 col-11" id="contacto" style="visibility: hidden;"></div>
+    <div class="border-bottom container border-primary my-2 pt-5 col-11" id="contacto" style="visibility: hidden;"></div>
     
     <div class="container m-auto py-4">
         <h2 class="text-center">Si tú decides hacerlo en un local o en tu casa</h1>
@@ -734,7 +738,7 @@
 
     <script src="assets/js/sendemail.js"></script>
 
-    <div class="border-bottom container border-secondary my-4 col-11" id="horarios"></div>
+    <div class="border-bottom container border-secondary my-4 pt-4 col-11" id="horarios"></div>
     <!--#endregion-->
 
     <section class="py-3 bg-secondary text-white">
